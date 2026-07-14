@@ -2,6 +2,8 @@ streamlit
 pandas
 numpy
 plotly
-simpy
 scikit-learn
+folium
+streamlit-folium
+simpy
 openpyxl
