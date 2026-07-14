@@ -150,20 +150,20 @@ Together the dashboard covers **18 project phases** across **9 developers** (10,
 
 ---
 
+
 ## 🗂️ Project Structure
 
-```
+```text
 Bengaluru-Real-Estate-Dashboard/
 │
 ├── app/
-│   └── streamlit_app.py         # Unified Streamlit application (~2,150 lines)
+│   └── streamlit_app.py          # Unified Streamlit application (~2,150 lines)
 │
 ├── data/
-│   └── Bagaluru - Micro Market Analysis(1).xlsx   # Source data workbook
+│   ├── Bagaluru - Micro Market Analysis(1).xlsx   # DMAIC dataset
+│   └── bengaluru_realestate_dataset.xlsx          # AI Map dataset
 │
-├── requirements.txt             # Python dependencies
-├── Bengaluru_RE_Dashboard_Documentation.docx  # Full project documentation
-├── Bengaluru_RE_Dashboard_Documentation.txt   # Plain-text documentation
+├── requirements.txt              # Python dependencies
 ├── .gitignore
 └── README.md
 >>>>>>> 5545aa9 (Updated Streamlit dashboard)
