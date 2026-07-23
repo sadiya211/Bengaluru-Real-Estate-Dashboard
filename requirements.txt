@@ -3,7 +3,5 @@ pandas
 numpy
 plotly
 scikit-learn
-folium
-streamlit-folium
 simpy
 openpyxl
